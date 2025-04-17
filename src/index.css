@@ -1,0 +1,33 @@
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Kugile';
+  src: url('/font/Kugile_Demo.ttf') format('truetype');
+}
+
+body{
+  font-family: "Montserrat", sans-serif;
+}
+
+
+@keyframes scroll-marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.marquee {
+  display: inline-flex;
+  animation: scroll-marquee 20s linear infinite;
+}
+.marquee:hover {
+  animation-play-state: paused;
+}
+
+
