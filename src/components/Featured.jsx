@@ -24,7 +24,7 @@ const featuredData = [
 const FeaturedCollections = () => {
   return (
     <section className="px-4 py-20 bg-[#f8f4f0]">
-      <h2 className="text-center text-3xl md:text-4xl font-semibold mb-7 font-serif text-[#5a3625]" style={{ fontFamily: 'Kugile' }}>
+      <h2 className="text-center text-3xl md:text-4xl font-semibold mb-7 font-serif text-[#800020]" style={{ fontFamily: 'Kugile' }}>
         Featured Collections
       </h2>
       <p className="text-center text-gray text-base sm:text-lg mb-7">

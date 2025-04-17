@@ -24,13 +24,12 @@ const Testimonials = () => {
       className="py-20 px-6 text-white"
       style={{
         backgroundImage:
-          "url('https://images.pexels.com/photos/15586086/pexels-photo-15586086/free-photo-of-colorful-wool-on-floor.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')",
+          "url('https://images.pexels.com/photos/18363713/pexels-photo-18363713/free-photo-of-traditional-carpets-on-street-market.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')",
         backgroundSize: "cover",
         backgroundPosition: "center",
-        backgroundAttachment: "fixed",
       }}
     >
-      <div className="bg-black/70 backdrop-blur-sm py-16 px-4 md:px-10 rounded-lg max-w-6xl mx-auto">
+      <div className="bg-black/40 backdrop-blur-sm py-16 px-4 md:px-10 rounded-lg max-w-6xl mx-auto">
         <h2
           className="text-3xl md:text-4xl font-semibold mb-10 text-center font-serif"
           style={{ fontFamily: "Kugile" }}

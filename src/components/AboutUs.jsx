@@ -2,7 +2,7 @@ import React from "react";
 
 const AboutUs = () => {
   return (
-    <section className="bg-[#f8f4f0] text-[#5a3625] px-6 py-16">
+    <section className="bg-[#f8f4f0] text-[#800020] px-6 py-16">
       <div className="max-w-6xl mx-auto space-y-20">
 
         {/* Philosophy Section */}

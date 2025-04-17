@@ -9,6 +9,8 @@ import Tagline from './components/Tagline'
 import FeaturedCollections from './components/Featured'
 import About from './components/AboutUs'
 import Testimonials from './components/Testimonial'
+import Spotlight from './components/VideoSpotlight'
+import Footer from './components/Footer'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -21,6 +23,8 @@ function App() {
       <FeaturedCollections />
       <About />
       <Testimonials />
+      <Spotlight />
+      <Footer />
     </>
   )
 }
